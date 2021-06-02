@@ -1,4 +1,40 @@
+main {
+height: 280px;
+width: 400px;
+display: grid;
+grid-template-rows: 1fr 1fr .5fr;
+box-shadow: 2px 2px 10px 2px gray;
+border-radius: 20px;
+}
+
+.top {
+    background-color:red;
+    font-family: monospace;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.bottom {
+    background-color: red;
+    border-radius: 0px 0px 20px 20px;
+}
+h1, h2{margin: 0;
+    }
 h1 {
-    background-color:lime;
+    font-size: 3rem;
+    text-transform: uppercase;
+    
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
     font-family: monospace;
 }
