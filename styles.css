@@ -1,3 +1,5 @@
+
+
 main {
 height: 280px;
 width: 400px;
@@ -8,6 +10,7 @@ border-radius: 20px;
 }
 
 .top {
+    
     background-color:red;
     border-radius: 20px 20px 0px 0px;
     color: white;
@@ -29,7 +32,7 @@ h1 {
     text-transform: uppercase;
     
 }
-.middle {
+.middle, .pronoun {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,6 +60,7 @@ h1 {
 }
 
 .header {
+
     height: 80px;
     width: 400px;
     background-color: black;
@@ -77,8 +81,8 @@ h1 {
 .sidebar {
     height: 460px;
     width: 200px;
-    position: fixed;
-    top: 10px;
+    position: absolute;
+    top: 60px;
     left: 420px;
     background-color: black;
     font-family: monospace;
@@ -94,3 +98,29 @@ h1 {
 
     
 }
+
+.button-zone {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-family: monospace;
+ 
+    
+}
+
+#submit-btn {
+    font-family: monospace;
+
+}
+
+#pronoun-btn {
+    font-family: monospace;
+}
+
+#name-input-field, #pronoun-input-field {
+    font-family: monospace;
+   
+}
+
+
+

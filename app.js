@@ -6,15 +6,20 @@
 
 
 const submitBtn = document.getElementById('submit-btn');
-const inputField = document.getElementById('input-field');
-const middleSection = document.getElementById('middle-section');
+const pronounInputField = document.getElementById('pronoun-input-field')
+const nameInputField = document.getElementById('name-input-field');
 const colorField = document.getElementById('color-field');
+const nameSection = document.getElementById('name-section');
 const topSection = document.getElementById('top-section')
+const bottomSection = document.getElementById('bottom-section')
+const pronounSection = document.getElementById('pronoun-section')
 
 submitBtn.addEventListener('click', ()=>{
-    // console.log(inputField.value);
-    // console.log(middleSection.textContent);
-    // console.log(colorField.value);
+    bottomSection.style.backgroundColor = colorField.value;
     topSection.style.backgroundColor = colorField.value;
-    middleSection.textContent = inputField.value;
-})
+    nameSection.textContent = nameInputField.value;
+    pronounSection.textContent = pronounInputField.value;
+   
+    
+});
+
